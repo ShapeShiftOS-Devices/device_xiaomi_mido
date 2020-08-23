@@ -46,8 +46,8 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Build without Lawnchair
-export LAWNCHAIR_OPTOUT := true
+# Build with OnePlus Launcher
+export TARGET_LAUNCHER_CHOICE := oplauncher
 
 # Build OOS ScreenRecorder
 TARGET_OOS_RECORDER := true
