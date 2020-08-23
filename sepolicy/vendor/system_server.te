@@ -8,3 +8,6 @@ allow system_server proc_touchpanel:lnk_file read;
 
 # vibrator
 allow system_server sysfs_vibrator:file read;
+
+# Smart Charging
+allow system_server sysfs_battery_supply:file { getattr open read write };
