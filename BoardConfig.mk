@@ -130,9 +130,6 @@ HWUI_COMPILE_FOR_PERF := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mido
 TARGET_RECOVERY_DEVICE_MODULES := libinit_mido
 
-# Media
-TARGET_USES_MEDIA_EXTENSIONS := true
-
 # Memory Config
 MALLOC_SVELTE := true
 
