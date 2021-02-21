@@ -30,6 +30,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Some Extra's
 EXUI_BUILDTYPE=OFFICIAL
 
+# Extended-UI Specific Properties
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.exui.cpu=SD625
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := exui_mido
