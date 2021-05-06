@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exui_mido.mk
+    $(LOCAL_DIR)/ssos_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    exui_mido-eng \
-    exui_mido-userdebug \
-    exui_mido-user
+    ssos_mido-eng \
+    ssos_mido-userdebug \
+    ssos_mido-user
