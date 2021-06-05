@@ -34,7 +34,7 @@
 	
     <PreferenceCategory android:title="@string/display_category">
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="fps_info"
             android:icon="@drawable/ic_fps_info"
             android:title="@string/fps_info_title"
@@ -134,7 +134,7 @@
             android:summary="@string/selinux_explanation_summary"
             android:selectable="false"/>
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="selinux_mode"
             android:icon="@drawable/ic_selinux"
             android:title="@string/selinux_mode_title"
@@ -142,7 +142,7 @@
             android:summaryOff="@string/selinux_permissive_summary"
             android:selectable="true" />
 
-        <SwitchPreference
+        <com.ssos.support.preferences.SwitchPreference
             android:key="selinux_persistence"
             android:icon="@drawable/ic_selinux_persistence"
             android:title="@string/selinux_persistence_title"
