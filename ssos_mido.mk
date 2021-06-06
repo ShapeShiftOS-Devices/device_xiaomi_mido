@@ -43,3 +43,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Inherit ShapeShiftOS common properties.
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.ssos.cpu=SD625
+
+# Inherit custom build fingerprint
+BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
